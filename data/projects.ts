@@ -41,7 +41,7 @@ researchNote?: string;
     },
 
     {
-      title: "ARDH DUBAI",
+      title: "DUBAI LAND",
       subtitle: "Corporate Travel & Tourism Website",
       description:
         "A modern corporate website developed for ARDH DUBAI Travel & Tourism, presenting the company's profile, services, and destinations through a responsive web experience.",
@@ -89,7 +89,7 @@ researchNote?: string;
 
     
 {
-  title: "Dalini | دلّيني",
+  title: "Dalini",
   subtitle: "Local Business & Services Discovery Platform",
   description:
     "A local discovery platform in development that helps people find and explore clinics, companies, restaurants, and cafés in their city. The platform aims to help users compare places through ratings, contact businesses directly, and access booking options.",

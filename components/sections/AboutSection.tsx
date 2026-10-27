@@ -84,8 +84,7 @@ const skillGroups = [
               <strong>artificial intelligence and chatbots</strong> in
               collaboration with{" "}
               <strong>Dr. Öğr. Başak Buluz Kömeçoğlu</strong>. The
-              DocuAssist project was submitted to TÜBİTAK and received
-              preliminary funding approval.
+              DocuAssist project was submitted to TÜBİTAK.
             </p>
   
             <p>

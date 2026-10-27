@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useState } from "react";
@@ -58,22 +59,36 @@ export default function ProjectCard({ project }: ProjectCardProps) {
                 View Source Code ↗
               </a>
             )}
+
+            {project.demo && (
+              <a
+                href={project.demo}
+                target="_blank"
+                rel="noopener noreferrer"
+className="rounded-full bg-[#49382c] px-5 py-3 text-sm font-medium text-white shadow-[0_4px_12px_rgba(73,56,44,0.15)] transition duration-300 hover:bg-[#72563f] hover:shadow-[0_8px_20px_rgba(73,56,44,0.25)]"
+              >
+                Live Website ↗
+              </a>
+            )}
           </div>
 
-          <p className="mt-6 text-xs leading-6 text-[#907d69]">
-            Research-oriented project · Preliminary funding approval
-          </p>
+          {project.title === "DocuAssist" && (
+            <p className="mt-6 text-xs leading-6 text-[#907d69]">
+              Research-oriented project · Preliminary funding approval
+            </p>
+          )}
         </div>
 
         {/* Project screenshots */}
         <div className="min-w-0">
-          <div className="relative aspect-4/3 overflow-hidden rounded-2xl border border-[#e4d8c9] bg-white shadow-sm">
+          <div className="w-full overflow-hidden rounded-2xl border border-[#e4d8c9] bg-white shadow-sm">
             <Image
               src={activeImage}
               alt={`${project.title} project preview`}
-              fill
+              width={1200}
+              height={900}
               sizes="(max-width: 1024px) 100vw, 50vw"
-              className="object-contain"
+              className="block h-auto w-full object-contain"
               priority
             />
           </div>
